@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  padding: 50px 0;
+}
+
+header hgroup {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+header nav {
+  background-color: rgb(38, 38, 38);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: #e8e8e8;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+a:hover {
+  color: rgb(38, 38, 38);
+  border-radius: 5px;
+  background-color: #dbdbdb;
+}
+
+h1{
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+}
